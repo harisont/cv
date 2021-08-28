@@ -26,7 +26,7 @@
 % ------------------------
 
 % margins
-\newgeometry{left=15mm,right=15mm,top=15mm,bottom=15mm}
+\newgeometry{left=10mm,right=10mm,top=10mm,bottom=10mm}
 
 % width of the gap between left and right column
 \newlength{\cvcolumngapwidth}
@@ -237,7 +237,7 @@
 
 \cvpersonalinfo{
     % photo
-    \includegraphics[height=38mm]{squared.png}
+    \includegraphics[height=38mm]{short.JPG}
 }{
     % name
     \cvname{Arianna Masciolini}
@@ -254,7 +254,7 @@
 
     % email address
     \cvpersonalinfolinewithicon{height=4mm}{070-envelop.pdf}{
-        arianna.masciolini@gmail.com; arianna@digitalgrammars.se; 
+        arianna.masciolini@gmail.com; arianna@digitalgrammars.se
     }
     
     % GitLab
@@ -281,30 +281,26 @@
 \cvitem{
     \cvdurationstyle{March 2021 - present}
 }{
-    \cvtitle{Software developer}
+    \cvtitle{Software Developer}
 
     \textit{Digital Grammars AB, Gothenburg, Sweden}
 }
 
 \cvitem{
-    \cvdurationstyle{November 2019 - Feburary 2020; September 2020 - February 2021}
+    \cvdurationstyle{November 2019 - February 2021}
 }{
-    \cvtitle{Teaching Assistant in Functional Programming}
+    \cvtitle{Teaching Assistant}
 
-    \textit{Göteborgs Universitet, Gothenburg, Sweden}
+    \textit{Department of Computer Science and Engineering, Göteborgs Universitet, Gothenburg, Sweden} \
+    \begin{itemize}[leftmargin=*]
+    \item Courses: \textit{``Introduction to Functional Programming''}, \textit{``Functional Programming''} and \textit{``Introduction to Programming with Python''}
+    \end{itemize}
 }
 
-\cvitem{
-    \cvdurationstyle{Summer 2020}
-}{
-    \cvtitle{Teaching Assistant in Introduction to Programming with Python}
-
-    \textit{Göteborgs Universitet, Gothenburg, Sweden}
-}
 \cvitem{
     \cvdurationstyle{March 2017 - May 2018}
 }{
-    \cvtitle{Admisistrative and translation work within the university}
+    \cvtitle{Student Admisistrative Assistant}
 
     \textit{Dipartimento di Matematica ed Informatica, Università degli Studi di Perugia, Perugia, Italy}
     
@@ -313,7 +309,7 @@
 \cvitem{
     \cvdurationstyle{Summer 2014}
 }{
-    \cvtitle{Remunerated bookbinding apprenticeship}
+    \cvtitle{Bookbinding Apprentice}
 
     \textit{Antica legatoria Biccini, Perugia, Italy}
 }
@@ -323,16 +319,28 @@
 
 \cvsection{EDUCATION}
 
+% after master
+\cvitem{
+    \cvdurationstyle{March 2021 - present}
+}{
+    \cvtitle{Freestanding University Courses}
+    \\
+    \textit{Göteborgs Universitet, Gothenburg, Sweden}
+    \begin{itemize}[leftmargin=*]
+        \item ``Photography project''
+    \end{itemize}
+}
+
 % master's
 \cvitem{
     \cvdurationstyle{September 2018 - February 2021}
 }{
-    \cvtitle{Master's degree in Computer Science}
+    \cvtitle{Master's Degree in Computer Science}
     \\
     \textit{Göteborgs Universitet, Gothenburg, Sweden}
     \begin{itemize}[leftmargin=*]
         \item Thesis: \textit{``Concept Alignment for Machine Translation''}
-        \item Main subjects: Functional Programming, Computational Linguistics, Natural Language Processing, Compilers
+        \item Main subjects: Computational Linguistics, Functional Programming, Compilers
     \end{itemize}
 }
 
@@ -340,14 +348,22 @@
 \cvitem{
     \cvdurationstyle{October 2015 - July 2018}
 }{
-    \cvtitle{Bachelors's degree in Computer Science}
+    \cvtitle{Bachelors's Degree in Computer Science}
     
     \textit{Università degli Studi di Perugia, Perugia, Italy}
 
     \begin{itemize}[leftmargin=*]
-        \item Thesis: \textit{``Algorithms for Energy Games: parallel implementation''}
-        \item Final mark: 110/110 \textit{cum laude}
+        \item Thesis: \textit{``Algorithms for Energy Games: Parallel Implementation''}
     \end{itemize}
+}
+
+\cvsection{PUBLICATIONS}
+\cvitem{
+    \cvdurationstyle{2021}
+}{
+    \cvtitle{Arianna Masciolini and Aarne Ranta, ``\textit{Grammar-Based Concept Alignment for Domain-Specific Machine Translation}''}
+    
+    \textit{CNL 2020/21}
 }
 
 % other experiences
@@ -357,31 +373,30 @@
 
 \vspace{\cvbetweensectionandheadingextraskipamount}
 
-% job related
 \cvitem{
     \cvheadingstyle{Tutoring}
 }{
-    Remunerated Python and Kotlin programming tutoring
+    Programming: Python and Kotlin
 
-    English and Latin tutoring (2014-2015)
-}
-
-\cvitem{
-    \cvheadingstyle{Translation}
-}{
-    Online volunteering at Khan Academy
+    Languages: English and Latin
 }
 
 \cvitem{
     \cvheadingstyle{Hackathons}
 }{
-    LibreOffice Perugia HackFest 2017, CSE Hackathon 2019 (Göteborgs Universitet)
+    LibreOffice Perugia HackFest 2017, CSE Hackathon 2019 (Göteborgs Universitet), Code With Friends Fall and Summer 2020
 }
 
 \cvitem{
-    \cvheadingstyle{Open source projects}
+    \cvheadingstyle{Open Source Projects}
 }{
     Android apps published on F-Droid
+}
+
+\cvitem{
+    \cvheadingstyle{Translation}
+}{
+    Volunteering for Khan Academy
 }
 
 % skills
@@ -395,39 +410,26 @@
 \cvitem{
     \cvheadingstyle{Languages}
 }{
-    Italian (native speaker), English (level C1, IELTS score 7.5), Spanish, Swedish.
-    
+    Italian (native speaker), English (level C1), Swedish (level B2), Spanish (level B2)
+}
+
+\cvitem{
+    \cvheadingstyle{Programming Languages}
+}{
+    Python, Haskell, Grammatical Framework, Agda, Kotlin, Java, C
 }
 
 % job related skills
 \cvitem{
-    \cvheadingstyle{Job-related skills}
+    \cvheadingstyle{Other Job-related Skills}
 }{
-    Team work
-    
-    Programming and markup languages: Haskell, Python, Kotlin, Agda, C, LaTeX
-    
-    Good knowledge of GNU/Linux desktop operating systems
-    
-    Git
-    
+    Team work, GNU/Linux operating systems, Git
 }
 
 \cvitem{
-    \cvheadingstyle{Interests}
+    \cvheadingstyle{Other Interests and Hobbies}
 }{
-    Music: vocal ensembles, early music
-    
-    Sports: rock climbing, athletics
-    
-    Digital and film photography
-    
-}
-
-\cvitem{
-    \cvheadingstyle{Driving licence}
-}{
-    B
+    Photography, vocal music, reading, rock climbing, long distance running, cycling
 }
 
 \end{document}
