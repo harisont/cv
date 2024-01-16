@@ -242,18 +242,20 @@
     % name
     \cvname{Arianna Masciolini}
 
+    % email address
+    \cvpersonalinfolinewithicon{height=4mm}{070-envelop.pdf}{
+        arianna.masciolini@gu.se;
+        arianna.masciolini@gmail.com
+    }
+
     % address
     \cvpersonalinfolinewithicon{height=4mm}{072-location.pdf}{
         Tyghusvägen 8, lgh 1301, 41527 Gothenburg, Sweden
     }
 
-    % email address
-    \cvpersonalinfolinewithicon{height=4mm}{070-envelop.pdf}{
-        arianna.masciolini@gmail.com; arianna.masciolini@gu.se
-    }
-
     % phone number
     \cvpersonalinfolinewithicon{height=4mm}{067-phone.pdf}{
+        +46 730358245;
         +39 3664750731
     }
     
@@ -261,6 +263,10 @@
     %\cvpersonalinfolinewithicon{height=4mm}{gitlab.pdf}{
     %    gitlab.com/harisont
     %}
+    % Website
+    \cvpersonalinfolinewithicon{height=4mm}{website.pdf}{
+        harisont.github.io
+    }
     
     % GitHub
     \cvpersonalinfolinewithicon{height=4mm}{github.pdf}{
@@ -268,9 +274,9 @@
     }
 
     % LinkedIn account
-    \cvpersonalinfolinewithicon{height=4mm}{458-linkedin.pdf}{
-        arianna-masciolini-696a41139
-    }
+    %\cvpersonalinfolinewithicon{height=4mm}{458-linkedin.pdf}{
+    %    arianna-masciolini-696a41139
+    %}
 }
 
 % education
@@ -282,9 +288,12 @@
 \cvitem{
     \cvdurationstyle{February 2022 - present}%February 2021}
 }{
-    \cvtitle{PhD student}
+    \cvtitle{PhD programme}
     \\
     \textit{Språkbanken, Göteborgs Universitet (Gothenburg, Sweden)}
+    \begin{itemize}[leftmargin=*]
+        \item Main topic: second language grammar acquisition
+    \end{itemize}
 }
 
 % master's
@@ -330,14 +339,14 @@
 
 % publications
 
-\cvsection{PUBLICATIONS}
-\cvitem{
-    \cvdurationstyle{August 2021}
-}{
-    \cvtitle{Arianna Masciolini and Aarne Ranta, ``\textit{Grammar-Based Concept Alignment for Domain-Specific Machine Translation}''}
-    
-    \textit{Published in Proceedings of the Seventh International Workshop on Controlled Natural Language (CNL 2020/21)}
-}
+%\cvsection{PUBLICATIONS}
+%\cvitem{
+%    \cvdurationstyle{August 2021}
+%}{
+%    \cvtitle{Arianna Masciolini and Aarne Ranta, ``\textit{Grammar-Based Concept Alignment for Domain-Specific Machine Translation}''}
+%    
+%    \textit{Published in Proceedings of the Seventh International Workshop on Controlled Natural Language (CNL 2020/21)}
+%}
 
 % work experience
 % ---------------
@@ -345,29 +354,40 @@
 \cvsection{WORK EXPERIENCE}
 
 \cvitem{
+    \cvdurationstyle{November 2019 - present}
+}{
+    \cvtitle{Teaching}
+
+    \textit{Göteborgs Universitet (Gothenburg, Sweden)} \
+    \begin{itemize}[leftmargin=*]
+    \item Python: \textit{"Introduction to Programming with Python"} and {"Advanced Programming with Python"}
+    \item Haskell: \textit{"Introduction to Functional Programming"} and \textit{"Functional Programming"}, 
+    \item "Computational Syntax"
+    \end{itemize}
+}
+
+\cvitem{
+    \cvdurationstyle{February 2022 - December 2022}
+}{
+    \cvtitle{Software Development}
+    \textit{Göteborgs Universitet (Gothenburg, Sweden)}
+    \begin{itemize}[leftmargin=*]
+    \item Lärka language learning platform
+    \end{itemize}
+}
+
+\cvitem{
     \cvdurationstyle{March 2021 - October 2021}
 }{
-    \cvtitle{Software Developer}
+    \cvtitle{Software Development}
 
     \textit{Digital Grammars AB (Gothenburg, Sweden)}
 }
 
 \cvitem{
-    \cvdurationstyle{November 2019 - January 2022}
-}{
-    \cvtitle{Teaching Assistant}
-
-    \textit{Department of Computer Science and Engineering, Göteborgs Universitet (Gothenburg, Sweden)} \
-    \begin{itemize}[leftmargin=*]
-    \item Python: \textit{"Introduction to Programming with Python"} and {"Advanced Programming with Python"}
-    \item Haskell: \textit{"Introduction to Functional Programming"} and \textit{"Functional Programming"}, 
-    \end{itemize}
-}
-
-\cvitem{
     \cvdurationstyle{March 2017 - May 2018}
 }{
-    \cvtitle{Student Admisistrative Assistant}
+    \cvtitle{Student Admisistration}
 
     \textit{Dipartimento di Matematica ed Informatica, Università degli Studi di Perugia (Perugia, Italy)}
     
@@ -384,34 +404,32 @@
 % other experiences
 % ------
 
-\cvsection{OTHER RELEVANT EXPERIENCES}
+\cvsection{OTHER EXPERIENCE}
 
 \vspace{\cvbetweensectionandheadingextraskipamount}
 
 \cvitem{
-    \cvheadingstyle{Personal projects}
+    \cvheadingstyle{Tutorials}
 }{
-    "Impara l'Haskell e mettilo da parte" (Haskell online videocourse), "Librery" (open source Android app published on F-Droid), "Me-tadah!" (open source ebook metadata editor)
+    "Impara l'Haskell e mettilo da parte" (online Haskell videocourse, ongoing)
+}
+
+\cvitem{
+    \cvheadingstyle{Private tutoring}
+}{
+    English, Latin, programming (Python and Kotlin)
 }
 
 \cvitem{
     \cvheadingstyle{Hackathons}
 }{
-    Code With Friends Fall and Summer 2020, CSE Hackathon 2019 (Göteborgs Universitet), LibreOffice Perugia HackFest 2017 
-}
-
-\cvitem{
-    \cvheadingstyle{Tutoring}
-}{
-    Programming: Python and Kotlin
-
-    Languages: English and Latin
+    Code With Friends Fall \& Summer 2020, CSE Hackathon 2019, LibreOffice Perugia HackFest 2017 
 }
 
 \cvitem{
     \cvheadingstyle{Translation}
 }{
-    Volunteering for Khan Academy
+    Educational content on Khan Academy, interactive articles, popular science videos
 }
 
 % skills
@@ -425,7 +443,7 @@
 \cvitem{
     \cvheadingstyle{Languages}
 }{
-    Italian (native speaker), English (level C1), Swedish (level B2), Spanish (level B2)
+    Italian, English, Swedish, Spanish
 }
 
 \cvitem{
@@ -438,13 +456,13 @@
 \cvitem{
     \cvheadingstyle{Other job-related skills}
 }{
-    Team work, GNU/Linux operating systems, Git
+    GNU/Linux, Git, LaTeX
 }
 
 \cvitem{
-    \cvheadingstyle{Other interests and hobbies}
+    \cvheadingstyle{Hobbies}
 }{
-    Photography, vocal music, reading, rock climbing, long distance running, cycling
+    Photography, literature, comics, early vocal music, cycling, skating, rock climbing 
 }
 
 \end{document}
